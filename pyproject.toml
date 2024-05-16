@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pdf-process"
+version = "0.1.0"
+description = ""
+authors = ["Ouguenoune Amine"]
+readme = "README.md"
+packages = [{include = "pdf_process"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.40.2"
+torch = "^2.3.0"
+pdf2image = "^1.17.0"
+scikit-learn = "^1.4.2"
+networkx = "^3.3"
+community = "^1.0.0b1"
+matplotlib = "^3.9.0"
+opencv-python = "^4.9.0.80"
+pdfplumber = "^0.11.0"
+datasets = "^2.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
